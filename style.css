@@ -24,3 +24,9 @@ aside {
     background-color: darkslateblue;
     color: snow;
 }
+
+      /*@media rule*/
+    @media all and (max-width: 1024px) {}
+
+      /*@import Rule*/
+    @import url(styles.css) all and (max-width: 1027px) {}
