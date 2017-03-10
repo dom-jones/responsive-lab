@@ -26,7 +26,17 @@ aside {
 }
 
       /*@media rule*/
-    @media all and (max-width: 1024px) {}
+    @media all and (max-width: 1024px); {}
 
       /*@import Rule*/
-    @import url(styles.css) all and (max-width: 1027px) {}
+    @import url(styles.css) all and (max-width: 1027px); {}
+
+       /*and logical operator*/
+    @media all and (min-width: 800px) and (max-width: 1024px); {}
+
+      /*not logical operator*/
+    @media and screen and (color); {}
+
+    /*only logical operator*/
+@media onlr screen and (orientation: portrait); {}
+
