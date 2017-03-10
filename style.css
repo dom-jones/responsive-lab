@@ -38,5 +38,8 @@ aside {
     @media and screen and (color); {}
 
     /*only logical operator*/
-@media onlr screen and (orientation: portrait); {}
+@media only screen and (orientation: portrait); {}
+
+    /*Height and width media features*/
+@media all and (min-width: 320px) and (max-width: 780px) {}
 
