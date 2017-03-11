@@ -45,3 +45,7 @@ aside {
 
     /*Orientation Media Feature   */
 @media all and (oreintation: landscape) {}
+
+     /*Aspect Ratio Media Features*/
+@media all and (min-device-aspect-ratio: 16/9) {}
+
