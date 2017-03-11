@@ -32,7 +32,7 @@ aside {
     @import url(styles.css) all and (max-width: 1027px); {}
 
        /*and logical operator*/
-    @media all and (min-width: 800px) and (max-width: 1024px); {}
+    @media all and (min-width: 800px) and (max-width: 1024px) {}
 
       /*not logical operator*/
     @media and screen and (color) {}
@@ -52,3 +52,6 @@ aside {
      /*Pixel Ratio Media Features*/
 @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min-device-pixel-ratio: 1.3) {}
 
+    /*Resolution Media Feature*/
+@media print and (min-resloution: 300dpi) {}
+/*Confused on this one Shay howe says this feature doesn;t except min-max prefixes, yet it's in the code example.....How sway?*/
