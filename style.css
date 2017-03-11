@@ -12,7 +12,7 @@ section, aside {
 section {
     float: left;
     /*width: 340px;*/
-    width:63.197026%; /*340px/538px = .631970268*/
+    width:63.197026%; /* 340px/538px = .631970268*/
     background-color: darkblue;
     color: snow;
 }
@@ -25,33 +25,44 @@ aside {
     color: snow;
 }
 
-      /*@media rule*/
+        /*@media rule
     @media all and (max-width: 1024px) {}
 
-      /*@import Rule*/
+      /*@import Rule
     @import url(styles.css) all and (max-width: 1027px); {}
 
-       /*and logical operator*/
+       /*and logical operator
     @media all and (min-width: 800px) and (max-width: 1024px) {}
 
-      /*not logical operator*/
+      /*not logical operator
     @media and screen and (color) {}
 
-    /*only logical operator*/
+    /*only logical operator
 @media only screen and (orientation: portrait) {}
 
-    /*Height and width media features*/
+    /*Height and width media features*
 @media all and (min-width: 320px) and (max-width: 780px) {}
 
-    /*Orientation Media Feature   */
+    /*Orientation Media Feature   
 @media all and (oreintation: landscape) {}
 
-     /*Aspect Ratio Media Features*/
+     /*Aspect Ratio Media Features
 @media all and (min-device-aspect-ratio: 16/9) {}
 
-     /*Pixel Ratio Media Features*/
+     /*Pixel Ratio Media Features
 @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min-device-pixel-ratio: 1.3) {}
 
-    /*Resolution Media Feature*/
+    /*Resolution Media Feature
 @media print and (min-resloution: 300dpi) {}
-/*Confused on this one Shay howe says this feature doesn;t except min-max prefixes, yet it's in the code example.....How sway?*/
+/*Confused on this one Shay howe says this feature doesn;t except min-max prefixes, yet it's in the code example.....How sway?
+ Figured it out! */
+
+ @media all and (max-width: 420px) {
+     section, aside {
+         float: none;
+         width: auto;
+     }
+ }
+
+
+     
