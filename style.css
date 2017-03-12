@@ -1,19 +1,19 @@
 /*img { max-width: 100%; }*/
 /*img { width: 100%; } Used for IE-specific style sheet.*/
 .container {
-    display: flex;
+    /*display: flex;*/
     flex-wrap: wrap;
     width: 538px;
 }
 
 section, aside {
-    display: flex;
+    /*display: flex;*/
     /*margin: 10px;*/
     margin: 1.858736059%; /* 10px/538px = .018587361*/
 }
 
 section {
-    display: flex;
+    /*display: flex;*/
     float: left;
     /*width: 340px;*/
     width:63.197026%; /* 340px/538px = .631970268*/
@@ -22,7 +22,7 @@ section {
 }
 
 aside {
-    display: flex;
+    /*display: flex;*/
     float: right;
     /*width: 158px;*/
     width: 29.3680297%; /*158px/538px = .293680297*/
