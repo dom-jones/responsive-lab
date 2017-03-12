@@ -97,5 +97,8 @@ aside {
          background-image: url("bg.png") 50% 50% no-repeat;
      }
  }
-
- 
+/*viewport CSS styling*/
+ @viewport {
+     width: device-width;
+     zoom: 1;
+ }
