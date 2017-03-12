@@ -34,11 +34,11 @@ section {
 }
 
 aside {
-    /*display: flex;*/
+    background: #00F;
     float: right;
     /*width: 158px;*/
     width: 29.3680297%; /*158px/538px = .293680297*/
-    background-color: darkslateblue;
+    height: 50%;
     color: snow;
 }
 
@@ -74,6 +74,10 @@ aside {
 /*Confused on this one Shay howe says this feature doesn;t except min-max prefixes, yet it's in the code example.....How sway?
  Figured it out! */
 
-
+/* Default styles firat then media queries*/
+@media screen and (min-width: 400px) {}
+@media screen and (min-width: 600px) {}
+@media screen and (min-width: 1000px) {}
+@media screen and (min-width: 1400px) {}
 
      
