@@ -102,3 +102,9 @@ aside {
      width: device-width;
      zoom: 1;
  }
+
+ /*Flexible Media*/
+ img, video, canvas {
+     max-width: 100%;
+ }
+ 
